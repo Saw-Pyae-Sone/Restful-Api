@@ -25,8 +25,8 @@ export default function UpdatePage() {
         } else {
           setMessage("Note not found.");
         }
-      } catch (err) {
-        console.error("Error loading note:", err);
+      } catch (error) {
+        console.error("Error loading note:", error);
         setMessage("Failed to load note.");
       }
     };
